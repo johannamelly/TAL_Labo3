@@ -35,7 +35,7 @@ java -cp stanford-corenlp-3.9.2.jar edu.stanford.nlp.parser.nndep.DependencyPars
 
 ```
 
-### Éxecice 2
+### Éxercice 2
 
 Le fichier contenant le code Python de cet exercice est disponible dans le fichier `jupyter/exercice2.ipynb`
 
@@ -53,3 +53,12 @@ Les triplets les plus fréquents dans le fichier utilisé sont les suivants:
 ('avez', 'VERB'), ('vous', 'PRON') - 2
 ('va', 'VERB'), ('il', 'PRON') - 2
 ```
+
+### Éxercice 3
+
+La commande utilisée pour lancer le serveur est la suivante:
+
+```bash
+java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+```
+
